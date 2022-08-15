@@ -1,6 +1,8 @@
+import React from "react";
+
 export const Member = (props) => {
   return (
-    <div style={{ border: solid, borderWidth: "1px" }}>
+    <div>
       <p>名前:</p>
       <p>{props.name}</p>
     </div>
